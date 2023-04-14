@@ -1,0 +1,157 @@
+body {
+    background: rgb(236, 224, 224);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+
+
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.html {
+    background: #e86125;
+    color: whitesmoke;
+}
+
+.css {
+    background: #017dc7;
+}
+#header {
+    background: rgb(85, 107, 85);
+    padding: 10px;
+    color: rgb(12, 42, 43);
+}
+
+#header,
+.html,
+.css {
+    margin-bottom: 15px;
+    margin-top:  10px;
+}
+
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(9, 52, 52);
+    margin-top: 1px;
+}
+
+.info {
+    
+display: flex;
+
+}
+.info-text {
+    margin-left: 20px;
+    margin-top: 5px;
+    max-height: 130px;
+}
+
+.info-text h1 {
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.bg-orange {
+    background: rgb(220, 186, 174);
+}
+
+.bg-blue {
+    background: rgb(86, 99, 144) ;
+
+}
+
+.bg-green {
+    background: #88d4a8;
+}
+
+a:active {
+    color: rgb(192, 81, 81);
+}
+
+
+.btn {
+    background: rgb(13, 131, 195);
+    padding: 5px 10px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+  .table td:nth-child(1) {
+    background: rgb(228, 217, 217);
+}
+  .table td:nth-child(2) {
+    background: rgb(228, 217, 217);
+}
+  .table td:nth-child(3) {
+    background: rgb(228, 217, 217);
+}
+
+.form-group input {
+    margin-left: 1px;
+}
+
+@media (max-width: 650px) {
+    .info {
+/* font-size: 1.5rem; */
+display: block;
+text-align: center;
+}
+}
+
+@media (max-width: 650px) {
+    .info-text h3 {
+        display: inline;
+        
+    }
+}
+
+@media (max-width: 650px) {
+    .info-text p {
+    
+        margin-bottom: 3px;
+    }
+}
